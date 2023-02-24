@@ -74,7 +74,7 @@ const filterContacts = () => {
       
       <SubmitContacts name={name} number={number} handleSubmit={handleSubmit} handleName={handleName} handleNumber={handleNumber}></SubmitContacts>
       {isLoading === STATUS.loading || isLoading === STATUS.idle ? <Hearts 
-            height="80"
+            height="100"
             width="80"
             color="red"
             ariaLabel="hearts-loading"
